@@ -1,6 +1,7 @@
-title: Tatsuya Akiba-Lewis
-blog_title: Your Blog Name
-description: Plain-language astrophysics explainers.
+title: Dynamicist's Digest
+author: Tatsuya Akiba-Lewis
+blog_title: Dynamicist's Digest
+description: Easy-to-read, bite-sized summaries of astrophysics articles or concepts.
 url: "https://astroakiba.com"
 baseurl: ""
 timezone: America/Los_Angeles
