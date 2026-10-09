@@ -20,7 +20,6 @@
       <nav class="site-nav">
         <a href="/blog/">Posts</a>
         <a href="/">Main site</a>
-        <a href="/feed.xml">RSS</a>
       </nav>
     </div>
   </header>
@@ -28,7 +27,8 @@
     {{ content }}
   </main>
   <footer class="site-footer wrap">
-    &copy; {{ site.time | date: "%Y" }} {{ site.title }}
-  </footer>
+  &copy; {{ site.time | date: "%Y" }} {{ site.title }} &middot;
+  <a href="/feed.xml" title="For use in a feed reader">RSS feed</a>
+</footer>
 </body>
 </html>
