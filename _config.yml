@@ -1,0 +1,18 @@
+title: Tatsuya Akiba-Lewis
+blog_title: Your Blog Name
+description: Plain-language astrophysics explainers.
+url: "https://astroakiba.com"
+baseurl: ""
+timezone: America/Los_Angeles
+markdown: kramdown
+permalink: /blog/:year/:month/:title/
+
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
